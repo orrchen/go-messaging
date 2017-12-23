@@ -1,2 +1,2 @@
-# go-messaging
-simple messaging framework using Golang TCP server and Kafka
+to run server: `go run main.go -config=config/config.yml` 
+

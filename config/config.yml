@@ -1,0 +1,6 @@
+brokers_list:
+  - "localhost:9092"
+producer_topic: "tcp_layer_messages"
+consumer_topics:
+  - "workers_layer_messages"
+consumer_group_id: "id-1"
