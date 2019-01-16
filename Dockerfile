@@ -5,4 +5,4 @@ WORKDIR /app
 ADD app/tcp-server.linux /app/
 ADD config /app/
 EXPOSE 8080 3000
-CMD ["./tcp-server.linux","-config=gce-dev-config.yml"]
+CMD ["./tcp-server.linux","-config=config.yml"]
